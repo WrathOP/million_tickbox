@@ -1,6 +1,5 @@
 import 'dart:async';
 
-import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart' hide Router;
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -23,7 +22,7 @@ void main() {
 
       runApp(
         ProviderScope(
-          observers: [ProviderWatch()],
+          // observers: [ProviderWatch()],
           child: MainApp(),
         ),
       );
